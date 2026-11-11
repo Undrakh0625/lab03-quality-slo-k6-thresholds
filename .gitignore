@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+.npm-cache/
+.brew-cache/
+.brew-logs/
+work/k6-bin/
