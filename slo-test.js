@@ -9,6 +9,7 @@ export const options = {
   thresholds: {
     'http_req_duration{name:cart}': ['p(95)<200'],
     'http_req_failed{name:pay}': ['rate<0.08'],
+    'http_req_duration{name:report}': ['p(95)<450'],
     checks: ['rate>0.90'],
   },
 };
