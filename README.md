@@ -69,6 +69,7 @@ k6 run slo-test.js
 | Найдвартай байдал | `/pay` HTTP алдааны хувь | `< 8%` | 1 минутын load run | `http_req_failed{name:pay}: rate<0.08` |
 | Гүйцэтгэл (`/report`) | `/report` HTTP хүсэлтийн p95 latency | `< 450 ms` | 1 минутын load run | `http_req_duration{name:report}: p(95)<450` |
 | Гүйцэтгэл (`/report`) | `/report` HTTP хүсэлтийн p95 latency | `< 450 ms` | 1 минутын load run | `http_req_duration{name:report}: p(95)<450` |
+| Гүйцэтгэл (`/report`) | `/report` HTTP хүсэлтийн p95 latency | `< 450 ms` | 1 минутын load run | `http_req_duration{name:report}: p(95)<450` |
 | Хүртээмж | Бүх endpoint-ийн амжилттай check-ийн хувь | `> 90%` (зорилтот доод хязгаар 90%) | Нэг run; chaos-д 2 минут | `checks: rate>0.90` |
 
 ### Error budget ба босго сонголт
